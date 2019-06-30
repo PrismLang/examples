@@ -1,0 +1,7 @@
+# Returns the Factorial of the specified number
+let factorial = func (n) {
+  if (n == 0) {
+    return 1;
+  }
+  return n * factorial(n - 1)
+};
